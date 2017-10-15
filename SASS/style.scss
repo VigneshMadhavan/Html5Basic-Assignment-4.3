@@ -1,0 +1,37 @@
+$primary-color-dark:   #AFB42B;
+$primary-color:        #CDDC39;
+$primary-color-light:  #F0F4C3;
+$primary-color-text:   #212121;
+$accent-color:         #FF4081;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+body{
+	background-color: $primary-color-light;	
+	
+}
+.box{
+	
+	border-radius: 10px;
+	width: 400px;
+	height: 300px;	
+	margin: auto;
+	padding: 10px;	
+	display: block;
+	border: 2px solid;
+	background-color: $divider-color;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("../images/img_2.jpg");	
+	background-size: 400px 300px;
+	transition: all 2s ease;	
+	&:hover{		
+		border-radius: 16px !important;
+		background-size: 500px 400px !important;
+		background-color:$accent-color !important;
+		width: 500px !important;
+		height: 400px !important;
+	}
+}
+
+
